@@ -1,10 +1,92 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Kalkulator Uang Jajan",
+    "kategori": "Aplikasi",
+    "teknologi": "HTML, CSS, JavaScript",
+    "tahun": 2026,
+    "tautan": "https://codepen.io/learnically/pen/ExOPojd"
+  },
+
+  {
+    "id": "2",
+    "judul": "Profil Mahasiswa Digital",
+    "kategori": "Website",
+    "teknologi": "HTML dan CSS",
+    "tahun": 2026,
+    "tautan": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+  },
+
+  {
+    "id": "3",
+    "judul": "Catatan Peminjaman Buku",
+    "kategori": "Aplikasi",
+    "teknologi": "React dan Javascript",
+    "tahun": 2026,
+    "tautan": "https://react.dev/learn"
+  },
+
+  {
+    "id": "4",
+    "judul": "Daftar Belanja Harian",
+    "kategori": "Aplikasi",
+    "teknologi": "HTML, CSS dan JavaScript",
+    "tahun": 2026,
+    "tautan": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+  },
+
+  {
+    "id": "5",
+    "judul": "Rekap Nilai Perkuliahan",
+    "kategori": "Data",
+    "teknologi": "Javascript",
+    "tahun": 2026,
+    "tautan": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+  }, 
+
+  {
+    "id": "6",
+    "judul": "Inventaris Barang Kamar",
+    "kategori": "Sistem Informasi",
+    "teknologi": "React dan Javascript",
+    "tahun": 2026,
+    "tautan": "https://react.dev/learn"
+  },
+
+  {
+    "id": "7",
+    "judul": "Desain Aplikasi Makanan",
+    "kategori": "Desain",
+    "teknologi": "Figma",
+    "tahun": 2026,
+    "tautan": "https://www.figma.com/community"
+  }, 
+
+  {
+    "id": "8",
+    "judul": "Pengingat Tugas Kuliah",
+    "kategori": "Aplikasi",
+    "teknologi": "React dan Javascript",
+    "tahun": 2026,
+    "tautan": "https://react.dev/learn"
+  }, 
+
+  {
+    "id": "9",
+    "judul": "Informasi Jadwal Kuliah",
+    "kategori": "Website",
+    "teknologi": "HTML, CSS dan JavaScript",
+    "tahun": 2026,
+    "tautan": "https://developer.mozilla.org/en-US/docs/Learn_web_development"
+  }, 
+
+  {
+    "id": "10",
+    "judul": "Grafik Pengeluaran Bulanan",
+    "kategori": "Data",
+    "teknologi": "Phyton dan Matplotlib",
+    "tahun": 2026,
+    "tautan": "ghttps://www.freecodecamp.org/news/matplotlib-course-learn-python-data-visualization"
   }
+  
 ]

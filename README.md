@@ -1,10 +1,5 @@
 # Ujian Tengah Semester IF25-22014 Pengembangan Aplikasi Web
 
-## README milikmu
-
-Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Kerangka berikut boleh dipakai:
-
-```markdown
 # Nama Aplikasi
 
 Nama: TARISA MENOVA

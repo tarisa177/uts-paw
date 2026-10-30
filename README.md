@@ -13,23 +13,23 @@ Kelas: RA
 Tema: Portofolio Proyek
 Deployment: https://tarisa177.github.io/uts-paw/
 
-1. Dokumentasi beranda
+1. Dokumentasi berandadocs/beranda.png
 ![Tangkapan layar beranda](docs/beranda.png)
 
 2. Dokumentasi Detail
-![Tangkapan layar beranda](docs/detail.png)
+![Tangkapan layar beranda](![alt text](docs/detail.png))
 
 3. Dokumentasi Koleksi
-![Tangkapan layar beranda](docs/koleksi.png)
+![Tangkapan layar beranda](![alt text](docs/koleksi.png))
  
 4. Dokumentasi Statistik
-![Tangkapan layar beranda](docs/statistik.png)
+![Tangkapan layar beranda](![alt text](docs/statistik.png))
 
 5. Dokumentasi Tambah
-![Tangkapan layar beranda](docs/tambah.png)
+![Tangkapan layar beranda](![alt text](docs/tambah.png))
 
 6. Dokumentasi Tentang
-![Tangkapan layar beranda](docs/tentang.png)
+![Tangkapan layar beranda](![alt text](docs/tentang.png))
 
 
 ## Fitur

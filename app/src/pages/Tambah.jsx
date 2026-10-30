@@ -6,56 +6,42 @@ import './Tambah.css'
 
 const AWAL = {
   judul: '',
-  kategori: 'Aplikasi',
-  teknologi: '',
+  kategori: 'Website',
+  teknologi: 'Belum Ada',
   tahun: '2026',
-  tautan: 'Belum tersedia'
+  tautan: 'Belum Tersedia'
 }
 
 export default function Tambah() {
   const { tambah } = useKoleksi()
   const navigate = useNavigate()
-
   const [form, setForm] = useState(AWAL)
   const [galat, setGalat] = useState('')
 
-  function ubah(e) {
-    setForm({
-      ...form,
-      [e.target.name]: e.target.value
-    })
-    setGalat('')
-  }
+  const ubah = (e) => setForm({ ...form, [e.target.name]: e.target.value })
 
-  function simpan(e) {
+  const simpan = (e) => {
     e.preventDefault()
-
     if (form.judul.trim().length < 3) {
-      setGalat('Judul proyek minimal 3 karakter.')
-      return
-    }
-
-    if (!form.teknologi.trim()) {
-      setGalat('Teknologi wajib diisi.')
+      setGalat('Judul proyek wajib diisi, minimal 3 karakter.')
       return
     }
 
     tambah({
+      ...form,
       id: String(Date.now()),
       judul: form.judul.trim(),
-      kategori: form.kategori,
-      teknologi: form.teknologi.trim(),
+      teknologi: form.teknologi.trim() || 'Belum Ada',
       tahun: Number(form.tahun),
       tautan: form.tautan.trim() || 'Belum tersedia'
     })
-
     navigate('/koleksi')
   }
 
   return (
     <form className="formulir" onSubmit={simpan} noValidate>
       <h1>Tambah Proyek</h1>
-      <p>Tambahkan proyek baru ke portofolio proyek.</p>
+      <p>Tambahkan proyek baru ke dalam portofolio.</p>
 
       <label htmlFor="judul">Judul</label>
       <input
@@ -63,8 +49,9 @@ export default function Tambah() {
         name="judul"
         value={form.judul}
         onChange={ubah}
-        placeholder="Contoh: Kalkulator Uang Jajan"
+        placeholder="Contoh: Proyek Pilihan Anda"
       />
+      {galat && <p role="alert">{galat}</p>}
 
       <label htmlFor="kategori">Kategori</label>
       <select
@@ -73,10 +60,10 @@ export default function Tambah() {
         value={form.kategori}
         onChange={ubah}
       >
-        <option value="Aplikasi">Aplikasi</option>
         <option value="Website">Website</option>
-        <option value="Sistem Informasi">Sistem Informasi</option>
+        <option value="Aplikasi">Aplikasi</option>
         <option value="Data">Data</option>
+        <option value="Sistem Informasi">Sistem Informasi</option>
         <option value="Desain">Desain</option>
       </select>
 
@@ -106,10 +93,8 @@ export default function Tambah() {
         name="tautan"
         value={form.tautan}
         onChange={ubah}
-        placeholder="Tautan proyek atau Belum tersedia"
+        placeholder="Masukkan tautan"
       />
-
-      {galat && <p role="alert">{galat}</p>}
 
       <button type="submit">Simpan</button>
     </form>

@@ -22,10 +22,10 @@ export default function Layout() {
           ))}
         </nav>
       </header>
-      <main className="isi">
+      <main className="isi" id="utama">
         <Outlet />
       </main>
-      <footer className="kaki">Ujian Tengah Semester Pengembangan Aplikasi Web</footer>
+      <footer className="kaki" id="footer">Ujian Tengah Semester Pengembangan Aplikasi Web</footer>
     </div>
   )
 }

@@ -64,7 +64,7 @@
 
 .kartu {
   padding: 1rem;
-  border: 1px solid #dcdcdc;
+  border: 1px solid #c86666;
   border-radius: 8px;
 }
 
@@ -75,7 +75,7 @@
 
 .kartu p {
   margin: 0;
-  color: #57606a;
+  color: #6ca3e1;
 }
 
 .alat-koleksi {
@@ -88,7 +88,7 @@
 .alat-koleksi input,
 .alat-koleksi select {
   padding: 0.5rem 0.75rem;
-  border: 1px solid #c4c4c4;
+  border: 1px solid #c9c0c0;
   border-radius: 6px;
   font: inherit;
 }
@@ -102,4 +102,21 @@
   .daftar-kartu {
     grid-template-columns: 1fr;
   }
+}
+
+#utama {
+  padding: 19px;
+}
+
+#judul {
+  margin-bottom: 18 px;
+}
+
+#footer {
+  padding: 15px;
+}
+
+a:focus {
+  outline: 2px solid #9b406f;
+  outline-offset: 3px;
 }

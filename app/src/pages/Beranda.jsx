@@ -12,7 +12,7 @@ export default function Beranda() {
 
   return (
     <section>
-      <h1>Portofolio Proyek</h1>
+      <h1 id= "judul" >Portofolio Proyek</h1>
       <p>Tema: {mahasiswa.tema}</p>
 
       {loading ? (

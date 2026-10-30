@@ -1,0 +1,9 @@
+kategori {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 22 px;
+    background-color: #77b75e;
+    color: #5b979e;
+    font-size: 12px;
+    font-weight: bold;
+}

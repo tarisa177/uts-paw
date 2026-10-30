@@ -41,3 +41,15 @@
     align-self: stretch;
   }
 }
+
+#bagian-utama {
+  padding: 20px;
+}
+
+#judul-halaman {
+  margin-bottom: 20px;
+}
+
+#bagian-footer {
+  padding: 15px;
+}

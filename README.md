@@ -34,7 +34,7 @@ Deployment: https://tarisa177.github.io/uts-paw/
 
 ## Fitur
 
-- ...
+
 
 ## Menjalankan secara lokal
 
